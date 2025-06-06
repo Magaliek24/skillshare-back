@@ -3,12 +3,23 @@
 // Mise en place de l'autoload
 
 use App\core\Router;
+use App\core\Database;
 
 require_once __DIR__ . '/../bootstrap.php';
 
-$router = new Router();
+try {
 
-$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$method = $_SERVER['REQUEST_METHOD'];
+    $router = new Router();
 
-$router->dispatch($uri, $method);
+    $db = Database::getConnexion();
+
+    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $method = $_SERVER['REQUEST_METHOD'];
+
+    $router->dispatch($uri, $method);
+} catch (Exception $e) {
+    $json = json_encode([
+        'error' => 'Une erreur est survenue.',
+        'message' => $e->getMessage()
+    ]);
+}

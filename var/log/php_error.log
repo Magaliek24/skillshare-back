@@ -1,22 +1,13 @@
-[Thu Jun  5 14:37:46 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
-[Thu Jun  5 14:37:58 2025] [::1]:50741 Accepted
-[Thu Jun  5 14:37:58 2025] [::1]:50741 [200]: GET /
-[Thu Jun  5 14:37:58 2025] [::1]:50741 Closing
-[Thu Jun  5 14:37:58 2025] [::1]:50742 Accepted
-[Thu Jun  5 14:37:59 2025] PHP Fatal error:  Uncaught Exception: Route not found for GET /favicon.ico in C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\src\core\Router.php:21
-Stack trace:
-#0 C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\public\index.php(14): App\core\Router->dispatch('/favicon.ico', 'GET')
-#1 {main}
-  thrown in C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\src\core\Router.php on line 21
-[Thu Jun  5 14:37:59 2025] [::1]:50742 [200]: GET /favicon.ico - Uncaught Exception: Route not found for GET /favicon.ico in C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\src\core\Router.php:21
-Stack trace:
-#0 C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\public\index.php(14): App\core\Router->dispatch('/favicon.ico', 'GET')
-#1 {main}
-  thrown in C:\Users\Admin\Documents\Formation DWWM\Exo échanges compétences\SKILLSHARE\BACK\src\core\Router.php on line 21
-[Thu Jun  5 14:37:59 2025] [::1]:50742 Closing
-[Thu Jun  5 14:38:00 2025] [::1]:50744 Accepted
-[Thu Jun  5 14:38:00 2025] [::1]:50744 [200]: GET /
-[Thu Jun  5 14:38:00 2025] [::1]:50744 Closing
-[Thu Jun  5 15:09:24 2025] [::1]:51124 Accepted
-[Thu Jun  5 15:11:39 2025] [::1]:51124 Closed without sending a request; it was probably just an unused speculative preconnection
-[Thu Jun  5 15:11:39 2025] [::1]:51124 Closing
+[Fri Jun  6 08:57:46 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Fri Jun  6 08:57:50 2025] [::1]:63287 Accepted
+[Fri Jun  6 08:57:51 2025] [::1]:63287 [200]: GET /
+[Fri Jun  6 08:57:51 2025] [::1]:63287 Closing
+[Fri Jun  6 08:57:51 2025] [::1]:63288 Accepted
+[Fri Jun  6 08:57:52 2025] [::1]:63288 [200]: GET /favicon.ico
+[Fri Jun  6 08:57:52 2025] [::1]:63288 Closing
+[Fri Jun  6 09:40:16 2025] [::1]:64007 Accepted
+[Fri Jun  6 09:40:16 2025] [::1]:64008 Accepted
+[Fri Jun  6 09:40:17 2025] [::1]:64007 [200]: GET /
+[Fri Jun  6 09:40:17 2025] [::1]:64007 Closing
+[Fri Jun  6 09:40:17 2025] [::1]:64008 [200]: GET /favicon.ico
+[Fri Jun  6 09:40:17 2025] [::1]:64008 Closing
